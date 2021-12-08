@@ -101,11 +101,15 @@ li {
 .effective-solutions {
     padding-top: 200px;
     padding-bottom: 200px;
-    background: #2F303A;
+    
 
     flex-direction: column;
     align-content: center;
     align-items: center;
+    background-clip: content-box;
+    background-image: url(../images/effective_solutions/effective-solutions_bg_photo); 
+    background: rgba(47, 48, 58, 0.4);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .effective-solutions h1 {
@@ -117,7 +121,7 @@ li {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #d3a7a7;
 }
 
 .effective-solutions button {
@@ -249,7 +253,10 @@ li {
 
 /* Regular-customers */
 .Regular-customers {
-
+    width: 1170px;
+    height: 184px;
+    left: 215px;
+    top: 2401px;
 }
 
 
@@ -258,12 +265,13 @@ li {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    
+
     color:var(--text-primery-color);
 }
 
 .Regular-customers-list {
-
+    border:1px Inner border rgba(175, 177, 184, 1);
+    
 }
 
 
