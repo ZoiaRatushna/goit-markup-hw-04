@@ -130,11 +130,11 @@ li {
 
 /* effective solutions_background image*/
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-image: url("../images/effective_solutions/effective-solutions_bg_photo.jpg");    
+    background-image: url("../images/effective_solutions/effective-solutions_bg_photo.jpg"); 
+    background-size: contain;   
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -429,6 +429,7 @@ li {
 
     color:#FFFFFF ;
     border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .our-portfolio .img-portfolio {
