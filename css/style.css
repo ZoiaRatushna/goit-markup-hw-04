@@ -328,27 +328,68 @@ li {
     display: block;
 }
 
-/* Regular-customers */
-.Regular-customers {
-    width: 1170px;
+/* Regular-clients */
+.Regular-clients {
+    width: 1600px;
     height: 184px;
-    left: 215px;
-    top: 2401px;
 }
 
-.Regular-customers-title {
+.Regular-clients-title {
+    width: 1170px;
+    height: 184px;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    background-position: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
 
     color:var(--text-primery-color);
+    
 }
 
-.Regular-customers-list {
+.Regular-clients-list {
     border:1px Inner border rgba(175, 177, 184, 1);  
+    width: 170px;
+    height: 92px;
+    margin-top: 50px;
+    margin-right: 30px;
+
+    margin: 5px;
+    
 }
+
+/* icon-regular-clients */
+.icon-client {
+    display: inline-flex;
+    padding: 170px 92px;
+
+
+    fill: #FFFFFF;
+    border-radius: 50%;
+
+    font-size: 1px;
+    line-height: 1;
+    }
+    
+}
+
+.icon-client:hover {
+    background-color:var(--text-secondary-color);
+    color: #FFFFFF;
+}
+.icon-client .icon-client-hover {
+    display: none;
+}
+.icon-client:hover .icon-client{
+    display: none;
+}
+.icon-client:hover .icon-client-hover {
+    display: block;
+}
+
+
+
+
 
 /* our portfolio section */
 .our-portfolio {
